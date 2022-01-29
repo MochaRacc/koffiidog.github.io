@@ -6,11 +6,4 @@
          url('MDPrimerTestBold.woff') format('woff'),
          url('MDPrimerTestBold.ttf') format('truetype'),
          url('MDPrimerTestBold.svg#MDPrimerTestBold') format('svg');
-	font-family: 'MDPrimerTestMedium';
-    src: url('fonts/MDPrimerTestMedium.eot');
-    src: url('fonts/MDPrimerTestMedium.eot') format('embedded-opentype'),
-         url('fonts/MDPrimerTestMedium.woff2') format('woff2'),
-         url('fonts/MDPrimerTestMedium.woff') format('woff'),
-         url('fonts/MDPrimerTestMedium.ttf') format('truetype'),
-         url('fonts/MDPrimerTestMedium.svg#MDPrimerTestMedium') format('svg');
 }
