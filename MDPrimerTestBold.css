@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MDPrimerTestBold';
+    src: url('fonts/MDPrimerTestBold.eot');
+    src: url('fonts/MDPrimerTestBold.eot') format('embedded-opentype'),
+         url('fonts/MDPrimerTestBold.woff2') format('woff2'),
+         url('fonts/MDPrimerTestBold.woff') format('woff'),
+         url('fonts/MDPrimerTestBold.ttf') format('truetype'),
+         url('fonts/MDPrimerTestBold.svg#MDPrimerTestBold') format('svg');
+}
