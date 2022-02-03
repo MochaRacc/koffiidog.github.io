@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'MDPrimerTestMedium';
-    src: url('MDPrimerTestMedium.eot');
-    src: url('MDPrimerTestMedium.eot') format('embedded-opentype'),
-         url('MDPrimerTestMedium.woff2') format('woff2'),
-         url('MDPrimerTestMedium.woff') format('woff'),
-         url('MDPrimerTestMedium.ttf') format('truetype'),
-         url('MDPrimerTestMedium.svg#MDPrimerTestMedium') format('svg');
-}

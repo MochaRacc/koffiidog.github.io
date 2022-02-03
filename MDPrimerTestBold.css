@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'MDPrimerTestBold';
-    src: url('MDPrimerTestBold.eot');
-    src: url('MDPrimerTestBold.eot') format('embedded-opentype'),
-         url('MDPrimerTestBold.woff2') format('woff2'),
-         url('MDPrimerTestBold.woff') format('woff'),
-         url('MDPrimerTestBold.ttf') format('truetype'),
-         url('MDPrimerTestBold.svg#MDPrimerTestBold') format('svg');
-}
