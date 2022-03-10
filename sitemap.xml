@@ -8,8 +8,79 @@
 
 
 <url>
-  <loc>https://www.heyjksn.tk/</loc>
-  <lastmod>2022-03-08T19:57:58+00:00</lastmod>
+  <loc>https://www.heyjksn.tk/sitemap.html</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/security</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/copyright</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/hidden</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/jeffmahomey</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/banappeals</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/classic</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/rebrand-feedback</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/test</loc>
+  <lastmod>2022-03-10T02:41:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/25-01-22-introbts</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/26-01-22-ausday</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/26-01-22-websiteupdate</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/29-01-22-build4</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.heyjksn.tk/blog/25-02-22-theend</loc>
+  <lastmod>2022-02-25T02:53:07+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
