@@ -10,7 +10,16 @@
 @font-face {
     font-family: 'Necto Mono';
     src: url('Necto-Mono.woff2') format('woff2'),
-        url('Necto-Monor.woff') format('woff');
+        url('Necto-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ribes';
+    src: url('Ribes-Black.woff2') format('woff2'),
+        url('Ribes-Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
