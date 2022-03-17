@@ -7,3 +7,11 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Necto Mono';
+    src: url('Necto-Mono.woff2') format('woff2'),
+        url('Necto-Monor.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
