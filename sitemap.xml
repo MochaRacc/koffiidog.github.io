@@ -95,4 +95,12 @@
 <loc>https://blog.heyjksn.tk/2022/02/migrating-from-heyjksntk-to.html</loc>
 <changefreq>weekly</changefreq>
 </url>
+<url>
+<loc>https://status.heyjksn.tk/</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://docs.heyjksn.tk/</loc>
+<changefreq>weekly</changefreq>
+</url>
 </urlset>
