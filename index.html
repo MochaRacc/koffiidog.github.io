@@ -35,11 +35,54 @@
   })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
   sender('1e881bb4b87957')
 </script>
-	    
-	    
+<style>
+<style>
+.button {
+  display: inline-block;
+  background-color: black;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>    
   </head>
 <div id="Archive Notice">
 <center><p style="font-family:Apfel Grotezk; color:#000000; background-color:#FFFF00">There is currently ongoing conflict in Ukraine <a href="https://heyjksn.tk/StandwithUkraine" style="font-family:Apfel Grotezk; color:#000000;">See here on how to support Ukrainians during these times</a>.</p></center>
+</div>
+<div id="Button"><center><a href="https://www.heyjksn.tk/new"><button class="button" style="vertical-align:middle; font-family:Apfel Grotezk"><span>Going forward into Build 0.6 </span></button></a></center>
 </div>
 <center><b>&nbsp;</b></center>
 <div id="Logo"><center><img src="https://user-images.githubusercontent.com/98255028/158484805-dfe99e43-7599-4817-a49c-15908319e9ff.png" alt="Logo" style="width:291px;height:164px;"></center>
