@@ -24,3 +24,133 @@
     font-style: normal;
     font-display: swap;
 }
+.YouTube {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.Twitter {
+  background-color: #00acee;
+  border: none;
+  color: white;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.Discord {
+  background-color: #7289da;
+  border: none;
+  color: white;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.instagram {
+  background-image: linear-gradient(#f09433, #bc1888);
+  border: none;
+  color: white;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.Ukraine {
+  background-image: linear-gradient(#005BBB, #FFD500);
+  border: none;
+  color: white;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 24px 24px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+.black {
+  background-color: black;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+.twitch {
+  background-color: #6441a5;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+.bandcamp {
+  background-color: #629aa9;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+.themebutton {
+  background-color: #5900ac;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+.twitch {
+  background-color: #6441a5;
+  border: none;
+  color: white; 
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 12px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
