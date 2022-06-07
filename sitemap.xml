@@ -1,114 +1,12 @@
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://www.heyjksn.tk/sitemap</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/bigfunny</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/newsletter</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/security</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/copyright</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/hidden</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/bigfunny</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/jeffmahomey</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/banappeals</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/classic</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/rebrand-feedback</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/test</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/blog</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/blog/25-01-22-introbts</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/blog/26-01-22-ausday</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/blog/26-01-22-websiteupdate</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.heyjksn.tk/blog/29-01-22-build4</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/03/the-heyjksn-newsletter-is-now.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/03/StoppingMisinformationOnUkraine.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/03/heyjksn-website-update.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/03/InternationalWomensDay.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/02/IStandWithUkraine.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/02/youll-need-google-account-to-comment-on.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://blog.heyjksn.tk/2022/02/migrating-from-heyjksntk-to.html</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://status.heyjksn.tk/</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://docs.heyjksn.tk/</loc>
-<changefreq>weekly</changefreq>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.heyjksn.tk/</loc>
+  </url>
+  <url>
+    <loc>https://www.heyjksn.tk/stream-schedule</loc>
+  </url>
+  <url>
+    <loc>https://www.heyjksn.tk/discord</loc>
+  </url>
 </urlset>
