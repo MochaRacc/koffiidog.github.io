@@ -1,10 +1,147 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>HeyJKSN.com is currently unavailable (maintenance)</title>
-      <meta http-equiv = "refresh" content = "60; url = https://heyjksn.com" />
-   </head>
-   <body>
-      <p>HeyJKSN.com is undergoing some maintenance, until notice, please go <a href="https://heyjksn.freshstatus.io/incident/401828">here.</a></p>
-   </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="6000000000000000000000000000000000">
+  <meta http-equiv="content-language" content="en-gb">
+  <meta name="theme-color" content="#0073cf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/98255028?v=4">
+  <link href="https://fonts.cdnfonts.com/css/roblox-new" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+  <title>HeyJKSN</title>
+  <meta property="og:title" content="Jackson Davis (HeyJKSN)">
+  <meta property="og:description" content="Hi, I'm Jackson. An 18 year old gunzel with circular glasses.">
+  <meta property="og:url" content="https://heyjksn.com">
+  <meta property="og:image" content="/photos/cover.JPG">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
+  <style>
+    body {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: top;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+
+    b,
+    p {
+      font-family: 'Barlow', sans-serif;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 15px;
+text-align: center;
+    }
+
+    .icon-container {
+      display: flex;
+      gap: 20px;
+      margin-top: 0px;
+    }
+
+    .icon-button {
+      font-size: 32px;
+      transition: color 0.3s;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #2b2b2b;
+        color: white;
+      }
+
+      .icon-button {
+        color: white;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: #fff;
+        color: black;
+      }
+
+      .icon-button {
+        color: black;
+      }
+    }
+    .commit {
+      align-items: center;
+    }
+    .signature {
+      max-width: 10%;
+    }
+	
+	        img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin: 1 1;
+        }
+      a {
+        color: white;
+      }
+  </style>
+  <script>
+    async function getLatestCommit() {
+      try {
+        const repoUrl = 'https://api.github.com/repos/HeyJKSN/HeyJKSN.com/commits';
+        const response = await fetch(repoUrl);
+        const data = await response.json();
+
+        if (data && data.length > 0) {
+          const latestCommit = data[0];
+          const commitDate = new Date(latestCommit.commit.author.date);
+
+          const formattedDate = commitDate.toLocaleString('en-AU', {
+            timeZone: 'Australia/Sydney',
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+          });
+
+          document.getElementById('commitInfo').textContent = `HeyJKSN.com was last updated: ${formattedDate} AEDT`;
+        } else {
+          document.getElementById('commitInfo').textContent = 'No commits found.';
+        }
+      } catch (error) {
+        console.error('Error fetching commit information:', error);
+        document.getElementById('commitInfo').textContent = 'Unable to fetch Commit data';
+      }
+    }
+
+    // Call the function when the page loads
+    window.onload = getLatestCommit;
+  </script>
+</head>
+<body>
+<img src="photos/BendigoDayOut.jpg">
+<p>An event organised by @AussieWirraway on twitter.com was to go to Bendigo, explore the Bendigo Art Gallery, Tramway and Gold Mine.  What followed was 26 people in total (myself included) attended this event.</p>
+<div class="icon-container">
+  <a href="https://youtube.com/@HeyJKSN" target="_blank" class="icon-button"><i class="fab fa-youtube"></i></a>
+  <a href="https://twitter.com/HeyJKSN" target="_blank" class="icon-button"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://steamcommunity.com/id/HeyJKSN" target="_blank" class="icon-button"><i class="fab fa-steam"></i></a>
+  <a href="https://www.twitch.tv/heyjksn" target="_blank" class="icon-button"><i class="fab fa-twitch"></i></a>
+  <a href="https://www.instagram.com/heyjksn" target="_blank" class="icon-button"><i class="fab fa-instagram"></i></a>
+  </div>
+  <div class="icon-container">
+  <a href="https://www.tiktok.com/@HeyJKSN" target="_blank" class="icon-button"><i class="fab fa-tiktok"></i></a>
+  <a href="https://github.com/HeyJKSN" target="_blank" class="icon-button"><i class="fab fa-github"></i></a>
+  <a href="https://ko-fi.com/heyjksn" target="_blank" class="icon-button"><i class="fa fa-coffee"></i></a>
+  <a href="https://blog.heyjksn.com" target="_blank" class="icon-button"><i class="fab fa-blogger"></i></a>
+  <a href="https://photos.heyjksn.com" target="_blank" class="icon-button"><i class="fa fa-camera"></i></a>
+</div>
+<p id="commitInfo">Loading last GitHub Commit Data...</p>
+<p>You can find commits at <a href="https://github.com/HeyJKSN/HeyJKSN.com">github.com/HeyJKSN/HeyJKSN.com</a></p>
+<img style="max-width: 10%;" src="/signature.png" title="Yes, this is my signature">
+</body>
 </html>
+
