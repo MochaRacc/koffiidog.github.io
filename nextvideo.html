@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="6000000000000000000000000000000000">
+  <meta http-equiv="content-language" content="en-gb">
+  <meta name="theme-color" content="#0073cf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/98255028?v=4">
+  <title>Video Progress | HeyJKSN</title>
+  <meta property="og:title" content="Video Progress | HeyJKSN">
+  <meta property="og:description" content="Here's the progress of how I'm doing on my next YouTube video">
+  <meta property="og:url" content="https://heyjksn.com">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/98255028?v=4">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
+  <link rel="stylesheet" href="https://heyjksn.com/style.css">
+    <style>
+        body {
+            font-family: 'Barlow', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .progress-container {
+            width: 50%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar {
+            background-color: #3498db;
+            height: 30px;
+            width: 0;
+            transition: width 1s ease-in-out;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<center><h1>Next Video: </h1></center>
+<center><h2>The Bendigo Day Out 2023 - A brief summary</h2></center>
+    <div class="progress-container">
+        <div class="progress-bar" id="recording-progress">0%</div>
+        <p>Video Recording</p>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="editing-progress">0%</div>
+        <p>Video Editing</p>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="rendering-progress">0%</div>
+        <p>Video Rendering</p>
+    </div>
+
+    <script>
+        // You can update the progress values using JavaScript
+        document.getElementById('recording-progress').style.width = '100%';
+        document.getElementById('recording-progress').innerText = '100%';
+
+        document.getElementById('editing-progress').style.width = '1%';
+        document.getElementById('editing-progress').innerText = '1%';
+
+        document.getElementById('rendering-progress').style.width = '0%';
+        document.getElementById('rendering-progress').innerText = '0%';
+    </script>
+<img style="max-width: 64px" src="/signature.png" title="Yes, this is my signature">
+<p>©️ 2023 - Jackson Davis (HeyJKSN)</p>
+</body>
+
+</html>
