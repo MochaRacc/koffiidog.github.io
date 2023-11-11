@@ -36,6 +36,9 @@
       .icon-button {
         color: white;
       }
+      a {
+        color: white;
+      }
     }
     @media (prefers-color-scheme: light) {
       body {
@@ -44,6 +47,9 @@
       }
 
       .icon-button {
+        color: black;
+      }
+      a {
         color: black;
       }
     }
