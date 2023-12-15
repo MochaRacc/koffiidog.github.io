@@ -43,7 +43,7 @@
 <p>The they/them demon</p>
 <div class="icon-container">
   <a href="https://youtube.com/@JJenby" target="_blank" class="icon-button"><i class="fab fa-youtube"></i></a>
-  <a href="https://twitter.com/JJenby_" target="_blank" class="icon-button"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/JJenby_" target="_blank" class="icon-button"><i class="fa-brands fa-twitter"></i></a>
   <a href="https://steamcommunity.com/id/JJenby" target="_blank" class="icon-button"><i class="fab fa-steam"></i></a>
   <a href="https://www.twitch.tv/jjenby_" target="_blank" class="icon-button"><i class="fab fa-twitch"></i></a>
   <a href="https://www.instagram.com/" target="_blank" class="icon-button"><i class="fab fa-instagram"></i></a>
@@ -55,10 +55,7 @@
   <a href="" target="_blank" class="icon-button"><i class="fab fa-blogger"></i></a>
   <a href="" target="_blank" class="icon-button"><i class="fa fa-camera"></i></a>
 </div>
-<p id="commitInfo">Loading last GitHub Commit Data...</p>
 <p>©️ 2023 - JJ (@JJenby_)</p>
-<p>JJenby acknowledges that the website was created on the traditional land of the Wurundjeri people, and pays respect to those past, present and emerging.</p>
-<img style="max-width: 64px" src="https://raw.githubusercontent.com/JJenby/jjenby.github.io/main/Aboriginal.png" title="Always was, always has been.">
 </body>
 </html>
 
@@ -106,40 +103,6 @@
         // You can also change the logo and favicon on every page refresh
         // window.onbeforeunload = changeLogoAndFavicon; // Uncomment this line if needed
 		</script>
-		<script>
-    async function getLatestCommit() {
-      try {
-        const repoUrl = 'https://api.github.com/repos/JJenby/jjenby.github.io/commits';
-        const response = await fetch(repoUrl);
-        const data = await response.json();
-
-        if (data && data.length > 0) {
-          const latestCommit = data[0];
-          const commitDate = new Date(latestCommit.commit.author.date);
-
-          const formattedDate = commitDate.toLocaleString('en-AU', {
-            timeZone: 'Australia/Sydney',
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-          });
-
-          document.getElementById('commitInfo').textContent = `jjenby.github.io was last updated: ${formattedDate} AEDT`;
-        } else {
-          document.getElementById('commitInfo').textContent = 'No commits found.';
-        }
-      } catch (error) {
-        console.error('Error fetching commit information:', error);
-        document.getElementById('commitInfo').textContent = 'Unable to fetch Commit data';
-      }
-    }
-
-    // Call the function when the page loads
-    window.onload = getLatestCommit;
-    </script>
 
 </body>
 </html>
