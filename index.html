@@ -6,11 +6,11 @@
   <meta http-equiv="content-language" content="en-gb">
   <meta name="theme-color" content="#0073cf">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JJenby</title>
+  <title>JJenby | The they/them demon</title>
   <meta property="og:title" content="JJenby">
   <meta property="og:description" content="Hi, I'm JJ.">
   <meta property="og:url" content="https://jjenby.github.io">
-  <meta property="og:image" content="https://raw.githubusercontent.com/JJenby/jjenby.github.io/logos/logo1.png">
+  <meta property="og:image" content="https://jjenby.github.io/logos/logo1.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link href="https://mattfiler.co.uk/CSS/FONTS/Roobert/stylesheet.css" rel="stylesheet">
   <link rel="stylesheet" href="https://jjenby.github.io/style.css">
@@ -36,40 +36,6 @@
             color: white;
         }
     </style>
-	<script>
-    async function getLatestCommit() {
-      try {
-        const repoUrl = 'https://api.github.com/repos/JJenby/jjenby.github.io/commits';
-        const response = await fetch(repoUrl);
-        const data = await response.json();
-
-        if (data && data.length > 0) {
-          const latestCommit = data[0];
-          const commitDate = new Date(latestCommit.commit.author.date);
-
-          const formattedDate = commitDate.toLocaleString('en-AU', {
-            timeZone: 'Australia/Sydney',
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-          });
-
-          document.getElementById('commitInfo').textContent = `jjenby.github.io was last updated: ${formattedDate} AEDT`;
-        } else {
-          document.getElementById('commitInfo').textContent = 'No commits found.';
-        }
-      } catch (error) {
-        console.error('Error fetching commit information:', error);
-        document.getElementById('commitInfo').textContent = 'Unable to fetch Commit data';
-      }
-    }
-
-    // Call the function when the page loads
-    window.onload = getLatestCommit;
-  </script>
     <link rel="icon" type="image/png" href="logos/logo1.png">
 </head>
 <body>
@@ -139,6 +105,39 @@
 
         // You can also change the logo and favicon on every page refresh
         // window.onbeforeunload = changeLogoAndFavicon; // Uncomment this line if needed
+		
+    async function getLatestCommit() {
+      try {
+        const repoUrl = 'https://api.github.com/repos/JJenby/jjenby.github.io/commits';
+        const response = await fetch(repoUrl);
+        const data = await response.json();
+
+        if (data && data.length > 0) {
+          const latestCommit = data[0];
+          const commitDate = new Date(latestCommit.commit.author.date);
+
+          const formattedDate = commitDate.toLocaleString('en-AU', {
+            timeZone: 'Australia/Sydney',
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+          });
+
+          document.getElementById('commitInfo').textContent = `jjenby.github.io was last updated: ${formattedDate} AEDT`;
+        } else {
+          document.getElementById('commitInfo').textContent = 'No commits found.';
+        }
+      } catch (error) {
+        console.error('Error fetching commit information:', error);
+        document.getElementById('commitInfo').textContent = 'Unable to fetch Commit data';
+      }
+    }
+
+    // Call the function when the page loads
+    window.onload = getLatestCommit;
     </script>
 
 </body>
