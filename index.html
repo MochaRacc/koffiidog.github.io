@@ -6,16 +6,37 @@
   <meta http-equiv="content-language" content="en-gb">
   <meta name="theme-color" content="#0073cf">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/98255028?v=4">
   <title>JJenby</title>
   <meta property="og:title" content="JJenby">
   <meta property="og:description" content="Hi, I'm JJ.">
   <meta property="og:url" content="https://jjenby.github.io">
-  <meta property="og:image" content="https://raw.githubusercontent.com/femboygunzel/photos/main/trains/DSCN0852.JPG">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JJenby/jjenby.github.io/logos/logo1.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script>
+  <link href="https://mattfiler.co.uk/CSS/FONTS/Roobert/stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://jjenby.github.io/style.css">
+    <style>
+        body {
+            background-color: #2b2b2b;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: 'Roobert', sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px; /* Adjust the top margin as needed */
+        }
+
+        #logo {
+            max-width: 10%;
+            height: auto;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+	<script>
     async function getLatestCommit() {
       try {
         const repoUrl = 'https://api.github.com/repos/JJenby/jjenby.github.io/commits';
@@ -49,11 +70,11 @@
     // Call the function when the page loads
     window.onload = getLatestCommit;
   </script>
+    <link rel="icon" type="image/png" href="logos/logo1.png">
 </head>
 <body>
-<img src="https://raw.githubusercontent.com/jjenby/jjenby.github.io/main/photos/farewellSSH25.png">
-<p>H set SSH25 retired on Thursday, December 7th 2023 at Bacchus Marsh. This photo is to commemorate the sets service since 1984.</p>
-<p>SSH25 was hauled away from service by N459 "City of Echuca"</p>
+<img id="logo" src="" alt="JJenby Logo">
+<p>The they/them demon</p>
 <div class="icon-container">
   <a href="https://youtube.com/@JJenby" target="_blank" class="icon-button"><i class="fab fa-youtube"></i></a>
   <a href="https://twitter.com/JJenby_" target="_blank" class="icon-button"><i class="fa-brands fa-x-twitter"></i></a>
@@ -72,5 +93,53 @@
 <p>©️ 2023 - JJ (@JJenby_)</p>
 <p>JJenby acknowledges that the website was created on the traditional land of the Wurundjeri people, and pays respect to those past, present and emerging.</p>
 <img style="max-width: 64px" src="https://raw.githubusercontent.com/JJenby/jjenby.github.io/main/Aboriginal.png" title="Always was, always has been.">
+</body>
+</html>
+
+    <script>
+        // Array of logo URLs
+        var logos = [
+            'logos/logo1.png',
+            'logos/logo2.png',
+            'logos/logo3.png',
+            'logos/logo4.png',
+            'logos/logo5.png',
+            // Add more logo URLs as needed
+        ];
+
+        // Array of favicon URLs
+        var favicons = [
+            'logos/logo1.png',
+            'logos/logo2.png',
+            'logos/logo3.png',
+            'logos/logo4.png',
+            'logos/logo5.png',
+            // Add more favicon URLs as needed
+        ];
+
+        // Function to change the logo and favicon
+        function changeLogoAndFavicon() {
+            // Get random indices for logo and favicon arrays
+            var randomLogoIndex = Math.floor(Math.random() * logos.length);
+            var randomFaviconIndex = Math.floor(Math.random() * favicons.length);
+
+            // Get the logo element
+            var logo = document.getElementById('logo');
+
+            // Set the src attribute to the randomly selected logo
+            logo.src = logos[randomLogoIndex];
+
+            // Change the favicon dynamically
+            var favicon = document.querySelector('link[rel="icon"]');
+            favicon.href = favicons[randomFaviconIndex];
+        }
+
+        // Change the logo and favicon when the page loads
+        window.onload = changeLogoAndFavicon;
+
+        // You can also change the logo and favicon on every page refresh
+        // window.onbeforeunload = changeLogoAndFavicon; // Uncomment this line if needed
+    </script>
+
 </body>
 </html>
