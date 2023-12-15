@@ -12,7 +12,7 @@
     b,
     p {
       font-family: 'Roobert', sans-serif;
-      font-size: 25px;
+      font-size: 30px;
       text-align: center;
     }
 
@@ -23,7 +23,7 @@
     }
 
     .icon-button {
-      font-size: 50px;
+      font-size: 80px;
       transition: color 0.3s;
     }
 
